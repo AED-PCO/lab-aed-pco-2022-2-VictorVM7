@@ -13,3 +13,18 @@ G:\Meu Drive\Victor\PUC\Aulas\2º Semestre\Algoritmos e Estrutura de Dados\Lista
 G:\Meu Drive\Victor\PUC\Aulas\2º Semestre\Algoritmos e Estrutura de Dados\Lista2\Exercicio1\obj\Debug\net6.0\Exercicio1.pdb
 G:\Meu Drive\Victor\PUC\Aulas\2º Semestre\Algoritmos e Estrutura de Dados\Lista2\Exercicio1\obj\Debug\net6.0\Exercicio1.genruntimeconfig.cache
 G:\Meu Drive\Victor\PUC\Aulas\2º Semestre\Algoritmos e Estrutura de Dados\Lista2\Exercicio1\obj\Debug\net6.0\ref\Exercicio1.dll
+C:\Users\victo\Source\Repos\AED-PCO\lab-aed-pco-2022-2-VictorVM7\codigo\Lista2\Exercicio1\obj\Debug\net6.0\Exercicio1.csproj.AssemblyReference.cache
+C:\Users\victo\Source\Repos\AED-PCO\lab-aed-pco-2022-2-VictorVM7\codigo\Lista2\Exercicio1\obj\Debug\net6.0\Exercicio1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victo\Source\Repos\AED-PCO\lab-aed-pco-2022-2-VictorVM7\codigo\Lista2\Exercicio1\obj\Debug\net6.0\Exercicio1.AssemblyInfoInputs.cache
+C:\Users\victo\Source\Repos\AED-PCO\lab-aed-pco-2022-2-VictorVM7\codigo\Lista2\Exercicio1\obj\Debug\net6.0\Exercicio1.AssemblyInfo.cs
+C:\Users\victo\Source\Repos\AED-PCO\lab-aed-pco-2022-2-VictorVM7\codigo\Lista2\Exercicio1\obj\Debug\net6.0\Exercicio1.csproj.CoreCompileInputs.cache
+C:\Users\victo\Source\Repos\AED-PCO\lab-aed-pco-2022-2-VictorVM7\codigo\Lista2\Exercicio1\obj\Debug\net6.0\Exercicio1.dll
+C:\Users\victo\Source\Repos\AED-PCO\lab-aed-pco-2022-2-VictorVM7\codigo\Lista2\Exercicio1\obj\Debug\net6.0\refint\Exercicio1.dll
+C:\Users\victo\Source\Repos\AED-PCO\lab-aed-pco-2022-2-VictorVM7\codigo\Lista2\Exercicio1\obj\Debug\net6.0\Exercicio1.pdb
+C:\Users\victo\Source\Repos\AED-PCO\lab-aed-pco-2022-2-VictorVM7\codigo\Lista2\Exercicio1\bin\Debug\net6.0\Exercicio1.exe
+C:\Users\victo\Source\Repos\AED-PCO\lab-aed-pco-2022-2-VictorVM7\codigo\Lista2\Exercicio1\bin\Debug\net6.0\Exercicio1.deps.json
+C:\Users\victo\Source\Repos\AED-PCO\lab-aed-pco-2022-2-VictorVM7\codigo\Lista2\Exercicio1\bin\Debug\net6.0\Exercicio1.runtimeconfig.json
+C:\Users\victo\Source\Repos\AED-PCO\lab-aed-pco-2022-2-VictorVM7\codigo\Lista2\Exercicio1\bin\Debug\net6.0\Exercicio1.dll
+C:\Users\victo\Source\Repos\AED-PCO\lab-aed-pco-2022-2-VictorVM7\codigo\Lista2\Exercicio1\bin\Debug\net6.0\Exercicio1.pdb
+C:\Users\victo\Source\Repos\AED-PCO\lab-aed-pco-2022-2-VictorVM7\codigo\Lista2\Exercicio1\obj\Debug\net6.0\Exercicio1.genruntimeconfig.cache
+C:\Users\victo\Source\Repos\AED-PCO\lab-aed-pco-2022-2-VictorVM7\codigo\Lista2\Exercicio1\obj\Debug\net6.0\ref\Exercicio1.dll
