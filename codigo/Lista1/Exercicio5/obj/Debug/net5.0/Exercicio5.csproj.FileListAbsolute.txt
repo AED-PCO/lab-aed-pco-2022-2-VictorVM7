@@ -1,0 +1,16 @@
+C:\Users\victo\OneDrive\Área de Trabalho\Exercicio5\bin\Debug\net5.0\Exercicio5.exe
+C:\Users\victo\OneDrive\Área de Trabalho\Exercicio5\bin\Debug\net5.0\Exercicio5.deps.json
+C:\Users\victo\OneDrive\Área de Trabalho\Exercicio5\bin\Debug\net5.0\Exercicio5.runtimeconfig.json
+C:\Users\victo\OneDrive\Área de Trabalho\Exercicio5\bin\Debug\net5.0\Exercicio5.runtimeconfig.dev.json
+C:\Users\victo\OneDrive\Área de Trabalho\Exercicio5\bin\Debug\net5.0\Exercicio5.dll
+C:\Users\victo\OneDrive\Área de Trabalho\Exercicio5\bin\Debug\net5.0\ref\Exercicio5.dll
+C:\Users\victo\OneDrive\Área de Trabalho\Exercicio5\bin\Debug\net5.0\Exercicio5.pdb
+C:\Users\victo\OneDrive\Área de Trabalho\Exercicio5\obj\Debug\net5.0\Exercicio5.csproj.AssemblyReference.cache
+C:\Users\victo\OneDrive\Área de Trabalho\Exercicio5\obj\Debug\net5.0\Exercicio5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victo\OneDrive\Área de Trabalho\Exercicio5\obj\Debug\net5.0\Exercicio5.AssemblyInfoInputs.cache
+C:\Users\victo\OneDrive\Área de Trabalho\Exercicio5\obj\Debug\net5.0\Exercicio5.AssemblyInfo.cs
+C:\Users\victo\OneDrive\Área de Trabalho\Exercicio5\obj\Debug\net5.0\Exercicio5.csproj.CoreCompileInputs.cache
+C:\Users\victo\OneDrive\Área de Trabalho\Exercicio5\obj\Debug\net5.0\Exercicio5.dll
+C:\Users\victo\OneDrive\Área de Trabalho\Exercicio5\obj\Debug\net5.0\ref\Exercicio5.dll
+C:\Users\victo\OneDrive\Área de Trabalho\Exercicio5\obj\Debug\net5.0\Exercicio5.pdb
+C:\Users\victo\OneDrive\Área de Trabalho\Exercicio5\obj\Debug\net5.0\Exercicio5.genruntimeconfig.cache

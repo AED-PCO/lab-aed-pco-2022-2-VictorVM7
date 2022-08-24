@@ -1,0 +1,15 @@
+G:\Meu Drive\Victor\PUC\Aulas\2º Semestre\Algoritmos e Estrutura de Dados\Lista2\Exercicio1\bin\Debug\net6.0\Exercicio1.exe
+G:\Meu Drive\Victor\PUC\Aulas\2º Semestre\Algoritmos e Estrutura de Dados\Lista2\Exercicio1\bin\Debug\net6.0\Exercicio1.deps.json
+G:\Meu Drive\Victor\PUC\Aulas\2º Semestre\Algoritmos e Estrutura de Dados\Lista2\Exercicio1\bin\Debug\net6.0\Exercicio1.runtimeconfig.json
+G:\Meu Drive\Victor\PUC\Aulas\2º Semestre\Algoritmos e Estrutura de Dados\Lista2\Exercicio1\bin\Debug\net6.0\Exercicio1.dll
+G:\Meu Drive\Victor\PUC\Aulas\2º Semestre\Algoritmos e Estrutura de Dados\Lista2\Exercicio1\bin\Debug\net6.0\Exercicio1.pdb
+G:\Meu Drive\Victor\PUC\Aulas\2º Semestre\Algoritmos e Estrutura de Dados\Lista2\Exercicio1\obj\Debug\net6.0\Exercicio1.csproj.AssemblyReference.cache
+G:\Meu Drive\Victor\PUC\Aulas\2º Semestre\Algoritmos e Estrutura de Dados\Lista2\Exercicio1\obj\Debug\net6.0\Exercicio1.GeneratedMSBuildEditorConfig.editorconfig
+G:\Meu Drive\Victor\PUC\Aulas\2º Semestre\Algoritmos e Estrutura de Dados\Lista2\Exercicio1\obj\Debug\net6.0\Exercicio1.AssemblyInfoInputs.cache
+G:\Meu Drive\Victor\PUC\Aulas\2º Semestre\Algoritmos e Estrutura de Dados\Lista2\Exercicio1\obj\Debug\net6.0\Exercicio1.AssemblyInfo.cs
+G:\Meu Drive\Victor\PUC\Aulas\2º Semestre\Algoritmos e Estrutura de Dados\Lista2\Exercicio1\obj\Debug\net6.0\Exercicio1.csproj.CoreCompileInputs.cache
+G:\Meu Drive\Victor\PUC\Aulas\2º Semestre\Algoritmos e Estrutura de Dados\Lista2\Exercicio1\obj\Debug\net6.0\Exercicio1.dll
+G:\Meu Drive\Victor\PUC\Aulas\2º Semestre\Algoritmos e Estrutura de Dados\Lista2\Exercicio1\obj\Debug\net6.0\refint\Exercicio1.dll
+G:\Meu Drive\Victor\PUC\Aulas\2º Semestre\Algoritmos e Estrutura de Dados\Lista2\Exercicio1\obj\Debug\net6.0\Exercicio1.pdb
+G:\Meu Drive\Victor\PUC\Aulas\2º Semestre\Algoritmos e Estrutura de Dados\Lista2\Exercicio1\obj\Debug\net6.0\Exercicio1.genruntimeconfig.cache
+G:\Meu Drive\Victor\PUC\Aulas\2º Semestre\Algoritmos e Estrutura de Dados\Lista2\Exercicio1\obj\Debug\net6.0\ref\Exercicio1.dll
