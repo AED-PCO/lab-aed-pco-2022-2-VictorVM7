@@ -14,7 +14,6 @@
             numA = 1;
             return numA;
         }
-
         if(numA == 0)
             return numA;
 
