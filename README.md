@@ -2,10 +2,22 @@
 # Algoritmos e Estruturas de Dados (AED)
 Repositório para publicação das resoluções dos exercícios de Laboratório das disciplinas de programação da PUC Minas!
 
-## Alunos integrantes da equipe
+## 👨🏼‍🎓 Aluno
 
-* Nome completo do aluno
+|Nome|Cód. de pessoa|Rede Social|
+|----|--------------|-----------|
+|Victor Magalhães de Souza|1266914|[@victorms_22](https://www.instagram.com/victorms_22/?hl=en)|
 
-## Professor responsável
+## 💻 Códigos
+- [x] [Lista 1](https://github.com/AED-PCO/lab-aed-pco-2022-2-VictorVM7/tree/main/codigo/Lista1)
+- [x] [Lista 2](https://github.com/AED-PCO/lab-aed-pco-2022-2-VictorVM7/tree/main/codigo/Lista2)
+- [ ] [Lista 3](https://github.com/AED-PCO/lab-aed-pco-2022-2-VictorVM7/tree/main/codigo)
 
-* Nome completo do professor
+## 📜 Relatórios
+- [x] [Lista 1](https://github.com/AED-PCO/lab-aed-pco-2022-2-VictorVM7/blob/main/relatorio/Lista1.md)
+- [x] [Lista 2](https://github.com/AED-PCO/lab-aed-pco-2022-2-VictorVM7/blob/main/relatorio/Lista2.md)
+- [ ] [Lista 3](https://github.com/AED-PCO/lab-aed-pco-2022-2-VictorVM7/blob/main/relatorio)
+
+## 🧑🏽‍🏫 Professor responsável
+
+* Leonardo Vilela Cardoso
