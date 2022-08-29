@@ -20,8 +20,7 @@
             return vetor[aux] + somaPares(vetor, aux + 1);
 
         else
-            vetor[aux] = 0;
-            return vetor[aux] + somaPares(vetor, aux + 1);
+            return 0 + somaPares(vetor, aux + 1);
             
     }
 
