@@ -1,80 +1,82 @@
-# Exercicio 1
-Escreva um método recursivo que retorne o fatorial de um número.
+# âœğŸ¼ Exercicio 1
+Escreva um mÃ©todo recursivo que retorne o fatorial de um nÃºmero.
 
 ## Resposta
-O usuário digita um número e esse número é passado para a função recursiva que multiplica o número subtraindo ele até chegar no número 2, pois é o último número multiplicável que altera o resultado.
+O usuÃ¡rio digita um nÃºmero e esse nÃºmero Ã© passado para a funÃ§Ã£o recursiva que multiplica o nÃºmero subtraindo ele atÃ© chegar no nÃºmero 2, pois Ã© o Ãºltimo nÃºmero multiplicÃ¡vel que altera o resultado.
 
 ### Print
+![ex1](https://user-images.githubusercontent.com/92491730/187219719-b34d202b-af81-4586-b60a-5ff4ca1d7332.png)
 
 
-
-
-# Exercicio 2
-Uma multiplicação pode ser vista como uma sequência de somas. Escreva um método recursivo que realize a multiplicação de dois números inteiros, A e B, recebidos por parâmetro.
+# âœğŸ¼ Exercicio 2
+Uma multiplicaÃ§Ã£o pode ser vista como uma sequÃªncia de somas. Escreva um mÃ©todo recursivo que realize a multiplicaÃ§Ã£o de dois nÃºmeros inteiros, A e B, recebidos por parÃ¢metro.
 
 ## Resposta
-O usuário passa dois números: o número que ele quer multiplicar e quantidade de vez que será somado. Os números são passados e o número A é somado ao passo que o número B é subtraído até chegar a 1. 
-Caso o úsuário tentar multiplicar qualquer número por 0, o número A passa a valer 0 devido as regras de multiplicação em que qualuqer número vezes 0 é 0.
+O usuÃ¡rio passa dois nÃºmeros: o nÃºmero que ele quer multiplicar e quantidade de vez que serÃ¡ somado. Os nÃºmeros sÃ£o passados e o nÃºmero A Ã© somado ao passo que o nÃºmero B Ã© subtraÃ­do atÃ© chegar a 1. 
+Caso o ÃºsuÃ¡rio tentar multiplicar qualquer nÃºmero por 0, o nÃºmero A passa a valer 0 devido as regras de multiplicaÃ§Ã£o em que qualuqer nÃºmero vezes 0 Ã© 0.
 
 ### Print
+![ex2](https://user-images.githubusercontent.com/92491730/187219731-e8f5ee49-8205-456e-a174-8bd25659918d.png)
 
 
-
-
-# Exercicio 3
-Escreva um método recursivo que realize a potenciação entre dois números inteiros, A e B, recebidos por parâmetro. Seu método deve, portanto, retornar o resultado de AB.
+# âœğŸ¼ Exercicio 3
+Escreva um mÃ©todo recursivo que realize a potenciaÃ§Ã£o entre dois nÃºmeros inteiros, A e B, recebidos por parÃ¢metro. Seu mÃ©todo deve, portanto, retornar o resultado de AB.
 
 ## Resposta
-Dois número são passados para a função e eles funcionam da mesma forma como a soma, porém eles são multiplicados. Implementei algumas resoluções para números negativos na potência pois caso esse seja o caso,
-a potência é realizada de forma invertida (1/A^B), e uma vez que o número B deve chegar a 1 para funcionar como método de parada, pois é o último número multiplicável, eu comparo o valor absoluto de B com o número 1 e, para isso, vou somando B até chegar em -1 (O valor absoluto dele é 1, logo a função retorna o resultado de (1/n)).
-Caso a potência seja elevada a 0, o númeroA passa a valer 1, conforme as regras de potência.
+Dois nÃºmero sÃ£o passados para a funÃ§Ã£o e eles funcionam da mesma forma como a soma, porÃ©m eles sÃ£o multiplicados. Implementei algumas resoluÃ§Ãµes para nÃºmeros negativos na potÃªncia pois caso esse seja o caso,
+a potÃªncia Ã© realizada de forma invertida (1/A^B), e uma vez que o nÃºmero B deve chegar a 1 para funcionar como mÃ©todo de parada, pois Ã© o Ãºltimo nÃºmero multiplicÃ¡vel, eu comparo o valor absoluto de B com o nÃºmero 1 e, para isso, vou somando B atÃ© chegar em -1 (O valor absoluto dele Ã© 1, logo a funÃ§Ã£o retorna o resultado de (1/n)).
+Caso a potÃªncia seja elevada a 0, o nÃºmeroA passa a valer 1, conforme as regras de potÃªncia.
 
 ### Print
+![ex3](https://user-images.githubusercontent.com/92491730/187219852-d71eb63e-c065-48a2-aa27-5c47c27337f2.png)
 
 
 
-# Exercicio 4
-Escreva um método recursivo que receba uma frase e uma letra como parâmetros. Este método deve retornar a quantidade de ocorrências desta letra nesta frase.
+# âœğŸ¼ Exercicio 4
+Escreva um mÃ©todo recursivo que receba uma frase e uma letra como parÃ¢metros. Este mÃ©todo deve retornar a quantidade de ocorrÃªncias desta letra nesta frase.
 
 ## Resposta
-O usuário digita um frase e a letra que ele quer contar na frase. A função irá ler o texto como um vetor de caracteres que irá comparar a letra digitada com a a letra indicada no index do vetor(texto). Caso a letra seja igual será atribuido o número 1 a contagem e irá somando até o final do texto.
-Caso a letra seja diferente da escolhida, ele soma 0, uma vez que o número 0 não influencia na contagem das letras semelhantes.
+O usuÃ¡rio digita um frase e a letra que ele quer contar na frase. A funÃ§Ã£o irÃ¡ ler o texto como um vetor de caracteres que irÃ¡ comparar a letra digitada com a a letra indicada no index do vetor(texto). Caso a letra seja igual serÃ¡ atribuido o nÃºmero 1 a contagem e irÃ¡ somando atÃ© o final do texto.
+Caso a letra seja diferente da escolhida, ele soma 0, uma vez que o nÃºmero 0 nÃ£o influencia na contagem das letras semelhantes.
 
 ### Print
+![ex4](https://user-images.githubusercontent.com/92491730/187219862-3dd904ce-87c1-4be5-9a0c-867f7e95910b.png)
 
 
 
-# Exercicio 5
-Escreva um método recursivo que calcule a soma dos elementos de valor par de um vetor de números inteiros positivos.
+# âœğŸ¼ Exercicio 5
+Escreva um mÃ©todo recursivo que calcule a soma dos elementos de valor par de um vetor de nÃºmeros inteiros positivos.
 
 ## Resposta
-Defini um limite de 20 algarismos que são aleatoriamente escolhidos entre 1 e 2000 e esse números preenchem um vetor. Logo, a função recursiva percorre cada posição do vetor pegando o resto da divisão por 2.
-Caso o resto seja 0, o que siginifica que o número é par, é somado esse número a cada chamada da função até o último item do vetor. Caso o número seja ímpar, ele soma 0, o que não alterará o resultado da soma dos pares.
+Defini um limite de 20 algarismos que sÃ£o aleatoriamente escolhidos entre 1 e 2000 e esse nÃºmeros preenchem um vetor. Logo, a funÃ§Ã£o recursiva percorre cada posiÃ§Ã£o do vetor pegando o resto da divisÃ£o por 2.
+Caso o resto seja 0, o que siginifica que o nÃºmero Ã© par, Ã© somado esse nÃºmero a cada chamada da funÃ§Ã£o atÃ© o Ãºltimo item do vetor. Caso o nÃºmero seja Ã­mpar, ele soma 0, o que nÃ£o alterarÃ¡ o resultado da soma dos pares.
 
 ### Print
+![ex5](https://user-images.githubusercontent.com/92491730/187219884-0eb7688c-b0c2-434f-9922-39b88e9d3653.png)
 
 
 
-# Exercicio 6
-Escreva um método recursivo que receba uma frase e retorne a mesma frase, sem nenhuma vogal. 
+# âœğŸ¼ Exercicio 6
+Escreva um mÃ©todo recursivo que receba uma frase e retorne a mesma frase, sem nenhuma vogal. 
 
 ## Respota
-A frase é digitada e passada para a função que tem o método de parada o último elemento do vetor de char (A string), sendo o aux o contador para controlar. Para cada index do vetor, coloquei um switch que analisa cada vogal e sua derivações.
-Caso a letra não passe por nenhuma vogal, o comportamento padrão do método é retornar a função com a consoante ou outro caracter (A única opção que restou), concatenando ela à frase final sem as vogais.
-Caso seja uma vogal, ele adiciona um texto vazio, não alterando o texto final. 
+A frase Ã© digitada e passada para a funÃ§Ã£o que tem o mÃ©todo de parada o Ãºltimo elemento do vetor de char (A string), sendo o aux o contador para controlar. Para cada index do vetor, coloquei um switch que analisa cada vogal e sua derivaÃ§Ãµes.
+Caso a letra nÃ£o passe por nenhuma vogal, o comportamento padrÃ£o do mÃ©todo Ã© retornar a funÃ§Ã£o com a consoante ou outro caracter (A Ãºnica opÃ§Ã£o que restou), concatenando ela Ã  frase final sem as vogais.
+Caso seja uma vogal, ele adiciona um texto vazio, nÃ£o alterando o texto final. 
 
 ### Print
+![ex6](https://user-images.githubusercontent.com/92491730/187219893-06dcd27e-9318-4d02-9f4f-ac47118a7f9d.png)
 
 
 
-# Fibonacci
-Definição recursiva da série de Fibonacci
+# âœğŸ¼ Fibonacci
+DefiniÃ§Ã£o recursiva da sÃ©rie de Fibonacci
 
 ## Resposta
-Eu defini uma entrada que servirá para definir a posição na sequência de Fibonacci. Peguei como base o número anterior e o número antecessor. Ex: o número 3 (O número anterior é o 2, logo a função retorna 3-1 = 2. O número antecessor é 1, logo a função retorna 3-2=1).
-Nessa precisei de uma ajuda, pois não estava conseguindo entender muito bem essa lógica. Mas ao aplicar com um número pequeno, como citei, ficou fácil de entender para o restante.
+Eu defini uma entrada que servirÃ¡ para definir a posiÃ§Ã£o na sequÃªncia de Fibonacci. Peguei como base o nÃºmero anterior e o nÃºmero antecessor. Ex: o nÃºmero 3 (O nÃºmero anterior Ã© o 2, logo a funÃ§Ã£o retorna 3-1 = 2. O nÃºmero antecessor Ã© 1, logo a funÃ§Ã£o retorna 3-2=1).
+Nessa precisei de uma ajuda, pois nÃ£o estava conseguindo entender muito bem essa lÃ³gica. Mas ao aplicar com um nÃºmero pequeno, como citei, ficou fÃ¡cil de entender para o restante.
 
 ### Print
-
+![exFib](https://user-images.githubusercontent.com/92491730/187219918-6ebab5c2-b82b-43ba-a5a0-7a958c79d8a5.png)
 
 
