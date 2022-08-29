@@ -10,11 +10,78 @@ O Quadrado de 55 é igual a 3025.
  
 Faça um programa que mostre os números de 1000 a 9999 que possuem essa característica.
 
-### Resposta
+## Resposta
 Inicialmente, o algoritmo pega cada número de 1000 a 9999, transforma cada algarismo em char. Após isso é colocado num vetor de char.
 Concatenei o algarismo na posição 0 e posição 1, convertendo para int. O mesmo fiz para posição 2 e 3.
 Logo, ele chama a função que potencializa a soma entre os dois números concatenados. Se a potência for igual ao número.
 inicialmente escolhido, aparece uma mensagem que o número possui a característica especial.
 
 ### Print
-<img src"G:\Meu Drive\Victor\PUC\Aulas\2º Semestre\Algoritmos e Estrutura de Dados\Lista1\ex1.png">
+
+
+
+# Exercicio 2
+Um Número é dito Primo se possui como divisores o número 1 e ele mesmo. Em outras 
+palavras, um Número Primo possui dois divisores de 1 até ele.
+Faça um programa que mostre se um determinado número inteiro, lido pelo teclado, é 
+Primo.
+Um Número é dito Perfeito se a soma de seus divisores menores que ele é igual a ele. Por 
+exemplo, o número 6 possui os  divisores 1, 2 e 3, cuja soma é igual a 6.
+Faça um programa que liste os números perfeitos de 1 a 1000.
+
+## Resposta
+O usuário digita um número e a função verifica se o número é divisível por algum número maior do que 2 e menor que o digitado. Se não, ele é primo.
+Depois o código verifica se a soma dos números divisíveis pelo número escolhido de 1 a 1000 é o próprio número. Se sim, ele é um número perfeito.
+
+### Print
+
+
+
+# Exercício 3
+Faça um programa que receba os elementos de dois vetores, A e B, cada um com 5 posições. 
+Considere que nenhum dos vetores possui elementos repetidos.
+Crie um vetor resultante C que possua os elementos comuns entre A e B.
+Crie um vetor resultante D que contenha os elementos de A que não existam em B.
+
+## Resposta
+Declaro 4 vetores, preencho os vetores A e B. Passo o vetor A e B para serem comparados. A função verifica cada posição dentro do vetor, se há um número
+em comum, ele preenche o vetor C. Os números que são disitintos são passados para o vetor D.
+
+### Print
+
+
+
+# Exercício 4
+Faça um programa que receba os elementos de uma matriz de 5 linhas por 3 colunas. 
+Mostre a soma dos elementos de cada uma das linhas e das colunas da matriz.
+
+## Resposta
+Declaro a matriz e faço o usuário preenche-la. Após isso, leio a matriz a cada linha e cada coluna como se fosse um vetor.
+Eu fiz uma inversão para ele somar cada linha mundando a posição nas colunas e somar cada coluna mundando a posição nas linhas.
+Coloquei um If dentro da lida das colunas pois se o contador chegar a três, ele não imprime mais a soma das colunas, pois a posição das colunas
+é zerada a cada vez que a linha muda.
+
+### Print
+
+
+
+# Exercicio 5
+Faça um programa que chame uma função capaz de calcular o Fatorial de um número inteiro.
+
+## Resposta
+O usuário digita um número e ele é passado para a função. A função For pega do número 2 até o número digitado multiplicando o montante a cada número até o limite.
+
+### Print
+
+
+
+# Exercício 6
+Faça um programa que chame uma função capaz de calcular x^y, sendo x e y inteiros. Utilize passagem de parâmetros por referência.
+
+## Resposta
+O usuário digita dois números que serão passados para a função que calcula a potência pela função Math.Pow() e retorna o resultado.
+
+### Print
+
+
+

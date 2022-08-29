@@ -14,3 +14,19 @@ C:\Users\victo\OneDrive\Área de Trabalho\Exercicio2\obj\Debug\net5.0\Exercicio2
 C:\Users\victo\OneDrive\Área de Trabalho\Exercicio2\obj\Debug\net5.0\ref\Exercicio2.dll
 C:\Users\victo\OneDrive\Área de Trabalho\Exercicio2\obj\Debug\net5.0\Exercicio2.pdb
 C:\Users\victo\OneDrive\Área de Trabalho\Exercicio2\obj\Debug\net5.0\Exercicio2.genruntimeconfig.cache
+C:\Users\victo\Source\Repos\AED-PCO\lab-aed-pco-2022-2-VictorVM7\codigo\Lista1\Exercicio2\bin\Debug\net5.0\Exercicio2.exe
+C:\Users\victo\Source\Repos\AED-PCO\lab-aed-pco-2022-2-VictorVM7\codigo\Lista1\Exercicio2\bin\Debug\net5.0\Exercicio2.deps.json
+C:\Users\victo\Source\Repos\AED-PCO\lab-aed-pco-2022-2-VictorVM7\codigo\Lista1\Exercicio2\bin\Debug\net5.0\Exercicio2.runtimeconfig.json
+C:\Users\victo\Source\Repos\AED-PCO\lab-aed-pco-2022-2-VictorVM7\codigo\Lista1\Exercicio2\bin\Debug\net5.0\Exercicio2.runtimeconfig.dev.json
+C:\Users\victo\Source\Repos\AED-PCO\lab-aed-pco-2022-2-VictorVM7\codigo\Lista1\Exercicio2\bin\Debug\net5.0\Exercicio2.dll
+C:\Users\victo\Source\Repos\AED-PCO\lab-aed-pco-2022-2-VictorVM7\codigo\Lista1\Exercicio2\bin\Debug\net5.0\Exercicio2.pdb
+C:\Users\victo\Source\Repos\AED-PCO\lab-aed-pco-2022-2-VictorVM7\codigo\Lista1\Exercicio2\obj\Debug\net5.0\Exercicio2.csproj.AssemblyReference.cache
+C:\Users\victo\Source\Repos\AED-PCO\lab-aed-pco-2022-2-VictorVM7\codigo\Lista1\Exercicio2\obj\Debug\net5.0\Exercicio2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victo\Source\Repos\AED-PCO\lab-aed-pco-2022-2-VictorVM7\codigo\Lista1\Exercicio2\obj\Debug\net5.0\Exercicio2.AssemblyInfoInputs.cache
+C:\Users\victo\Source\Repos\AED-PCO\lab-aed-pco-2022-2-VictorVM7\codigo\Lista1\Exercicio2\obj\Debug\net5.0\Exercicio2.AssemblyInfo.cs
+C:\Users\victo\Source\Repos\AED-PCO\lab-aed-pco-2022-2-VictorVM7\codigo\Lista1\Exercicio2\obj\Debug\net5.0\Exercicio2.csproj.CoreCompileInputs.cache
+C:\Users\victo\Source\Repos\AED-PCO\lab-aed-pco-2022-2-VictorVM7\codigo\Lista1\Exercicio2\obj\Debug\net5.0\Exercicio2.dll
+C:\Users\victo\Source\Repos\AED-PCO\lab-aed-pco-2022-2-VictorVM7\codigo\Lista1\Exercicio2\obj\Debug\net5.0\refint\Exercicio2.dll
+C:\Users\victo\Source\Repos\AED-PCO\lab-aed-pco-2022-2-VictorVM7\codigo\Lista1\Exercicio2\obj\Debug\net5.0\Exercicio2.pdb
+C:\Users\victo\Source\Repos\AED-PCO\lab-aed-pco-2022-2-VictorVM7\codigo\Lista1\Exercicio2\obj\Debug\net5.0\Exercicio2.genruntimeconfig.cache
+C:\Users\victo\Source\Repos\AED-PCO\lab-aed-pco-2022-2-VictorVM7\codigo\Lista1\Exercicio2\obj\Debug\net5.0\ref\Exercicio2.dll
