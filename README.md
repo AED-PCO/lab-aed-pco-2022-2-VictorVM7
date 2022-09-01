@@ -11,12 +11,12 @@ Repositório para publicação das resoluções dos exercícios de Laboratório 
 ## 💻 Códigos
 - [x] [Lista 1](https://github.com/AED-PCO/lab-aed-pco-2022-2-VictorVM7/tree/main/codigo/Lista1)
 - [x] [Lista 2](https://github.com/AED-PCO/lab-aed-pco-2022-2-VictorVM7/tree/main/codigo/Lista2)
-- [ ] [Lista 3](https://github.com/AED-PCO/lab-aed-pco-2022-2-VictorVM7/tree/main/codigo)
+- [ ] [Lista 3](https://github.com/AED-PCO/lab-aed-pco-2022-2-VictorVM7/tree/main/codigo/Lista3)
 
 ## 📜 Relatórios
 - [x] [Lista 1](https://github.com/AED-PCO/lab-aed-pco-2022-2-VictorVM7/blob/main/relatorio/Lista1.md)
 - [x] [Lista 2](https://github.com/AED-PCO/lab-aed-pco-2022-2-VictorVM7/blob/main/relatorio/Lista2.md)
-- [ ] [Lista 3](https://github.com/AED-PCO/lab-aed-pco-2022-2-VictorVM7/blob/main/relatorio)
+- [ ] [Lista 3](https://github.com/AED-PCO/lab-aed-pco-2022-2-VictorVM7/blob/main/relatorio/Lista3.md)
 
 ## 🧑🏽‍🏫 Professor responsável
 
