@@ -27,7 +27,7 @@
     static void Main(string[] args)
     {
         int aux = 0;
-        int[] vetorInt = new int[20];
+        int[] vetorInt = new int[100];
         leVetor(vetorInt);
         Console.WriteLine("A soma dos pares no vetor é {0}", somaPares(vetorInt, aux));
     }
