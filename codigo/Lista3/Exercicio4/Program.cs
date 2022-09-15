@@ -1,6 +1,4 @@
-﻿using System.Runtime.CompilerServices;
-
-class program
+﻿class program
 {
     static string pesquisaVetor(int[] vetor, int ini, int mei, int fim, int num)
     {
@@ -9,9 +7,9 @@ class program
         if(num == vetor[mei])
             return $"Número {num} encontrado!";
 
-        else if(num > vetor[ini] && num < vetor[mei])
+        else if(num >= vetor[ini] && num < vetor[mei])
         {
-            fim = mei - 1;
+            fim = mei;
             return pesquisaVetor(vetor, ini, mei, fim, num);
         }
 
@@ -20,14 +18,15 @@ class program
             ini = mei + 1;
             return pesquisaVetor(vetor, ini, mei, fim, num);
         }
-        
+
         return "-1";
     }
 
     static void Main(string[] args)
     {
-        int[] vetor = new int[8] {0, 1, 2, 3, 4, 5, 6, 7};
-        int numero = 6;
+        int[] vetor;
+        vetor = new int[8] { 0, 1, 2, 3, 4, 5, 6, 7 };
+        int numero = 2;
 
         int inicio = 0;
         int meio = 0;
