@@ -4,14 +4,25 @@
         for(int i = 0; i < vetor.Length; i++) {
             Random numAleatorio = new Random();
             vetor[i] = numAleatorio.Next(1,50);
-            Console.WriteLine(vetor[i]);
+            Console.Write(vetor[i] + " ");
         }
     }
 
     static void divideVetor(int[] vetor, int num){
-        if(num < vetor[(0 + vetor.Length - 1) / 2]){
-            Console.WriteLine("Ele é menor!");
+        if(num == vetor[(0 + vetor.Length - 1) / 2]){
+            Console.WriteLine("Ele está aqui!");
         }
+
+        else if(num >= vetor[0] && num < vetor[(0 + vetor.Length - 1) / 2])){
+            vetor = (0 + vetor.Length - 1) / 2;
+            divideVetor(vetor, num);        
+        }
+        else if(vetor[(0 + vetor.Length - 1) / 2]) > vetor.Length - 1 && num < vetor[(0 + vetor.Length - 1) / 2])){
+            vetor = ((vetor.Length - 1 + ) / 2 + vetor.Length - 1) / 2;
+            divideVetor(vetor, num);        
+        }
+
+        return -1;
 
     }
 
