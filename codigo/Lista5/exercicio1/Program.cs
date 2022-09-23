@@ -2,28 +2,27 @@
 {
     static void preencheVetor(int[] vetor)
     {
+        Console.WriteLine("Des:");
         for (int i = 0; i < vetor.Length; i++)
         {
             Random numAleatorio = new Random();
-            vetor[i] = numAleatorio.Next(1, 50);
-            Console.Write(vetor[i] + " ");
+            vetor[i] = numAleatorio.Next(1, 10000);
+            Console.Write($"\t{vetor[i]}");
         }
+        Console.Write("\n");
     }
 
     static void ordenaVetor(int[] vetor)
-    {
-        for (int y = vetor.Length; y > 0; y--)
+    {   
+        for(int valor = vetor.Length - 1; valor >= 0; valor--)
         {
-            for (int i = 1; i < y; i++)
+            for (int i = 0; i < valor; i++)
             {
                 if (vetor[i] > vetor[i + 1])
                 {
                     int aux = vetor[i + 1];
-                    Console.WriteLine(aux);
                     vetor[i + 1] = vetor[i];
-                    Console.WriteLine(vetor[i + 1]);
                     vetor[i] = aux;
-                    Console.WriteLine(vetor[i]);
                 }
             }
         }
@@ -31,13 +30,14 @@
 
     static void Main(string[] args)
     {
-        int[] vetorD = new int[10];
+        int[] vetorD = new int[150000];
         preencheVetor(vetorD);
         ordenaVetor(vetorD);
 
-       for (int i = 0; i < vetorD.Length; i++)
+        Console.WriteLine("Ord:");
+        for(int i = 0; i < vetorD.Length; i++)
         {
-            Console.Write(vetorD[i]);
+            Console.Write($"\t{vetorD[i]}");
         }
     }
 }
