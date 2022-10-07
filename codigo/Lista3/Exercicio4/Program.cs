@@ -13,7 +13,7 @@
             return pesquisaVetor(vetor, ini, mei, fim, num);
         }
 
-        else if(num > vetor[mei] && num < vetor[fim])
+        else if(num > vetor[mei] && num <= vetor[fim])
         {
             ini = mei + 1;
             return pesquisaVetor(vetor, ini, mei, fim, num);
@@ -26,7 +26,7 @@
     {
         int[] vetor;
         vetor = new int[8] { 0, 1, 2, 3, 4, 5, 6, 7 };
-        int numero = 2;
+        int numero = 8;
 
         int inicio = 0;
         int meio = 0;

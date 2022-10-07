@@ -30,7 +30,7 @@
 
     static void Main(string[] args)
     {
-        int[] vetorD = new int[150000];
+        int[] vetorD = new int[150];
         preencheVetor(vetorD);
         ordenaVetor(vetorD);
 
