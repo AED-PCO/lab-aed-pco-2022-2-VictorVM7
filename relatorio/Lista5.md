@@ -26,4 +26,4 @@
 ![image](https://user-images.githubusercontent.com/92491730/195482646-828b3bf5-07e0-4775-a3c5-fcba8d7112b4.png)
 
 ### Gráfico
-![image](https://user-images.githubusercontent.com/92491730/195482712-6274afa1-6a2a-4107-8a61-4e5ef0567fdc.png)
+![image](https://user-images.githubusercontent.com/92491730/195483016-3251b48b-8a2e-48e7-9ea3-285789f0b0ac.png)
