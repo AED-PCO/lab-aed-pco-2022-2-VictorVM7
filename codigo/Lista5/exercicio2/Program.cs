@@ -9,8 +9,6 @@
             vetor[i] = numAleatorio.Next(1, 10000);
             Console.Write($"\t{vetor[i]}");
         }
-        Array.Sort(vetor);
-        Array.Reverse(vetor);
         Console.Write("\n");
     }
 
@@ -20,16 +18,12 @@
         for (int y = 0; y < vetor.Length; y++)
         {
             int pos = y;
-            Console.WriteLine($"a = {++a}");
             for (i = y; i < vetor.Length; i++)
             {
-                Console.WriteLine($"c = {++c}");
                 if (vetor[i] < vetor[y])
                 {
-                    Console.WriteLine($"c = {++c}");
                     if (vetor[i] < vetor[pos])
                     {
-                        Console.WriteLine($"a = {++a}");
                         pos = i;
                     }              
                 }
@@ -37,13 +31,12 @@
             maior = vetor[y];
             vetor[y] = vetor[pos];
             vetor[pos] = maior;
-            Console.WriteLine($"a = {a += 3}");
         }
     }
 
     static void Main(string[] args)
     {
-        int[] vetorD = new int[100];
+        int[] vetorD = new int[10];
         preencheVetor(vetorD);
         int s = 0, a = 0, c = 0;
         ordenaVetor(vetorD, s, a, c);
