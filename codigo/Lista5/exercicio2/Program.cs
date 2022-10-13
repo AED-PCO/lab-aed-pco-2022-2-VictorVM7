@@ -1,40 +1,57 @@
-﻿static void preencheVetor(int[] vetor)
+﻿class programa
 {
-    Console.WriteLine("Des:");
-    for (int i = 0; i < vetor.Length; i++)
+    static void preencheVetor(int[] vetor)
     {
-        Random numAleatorio = new Random();
-        vetor[i] = numAleatorio.Next(1, 10000);
-        Console.Write($"\t{vetor[i]}");
-    }
-    Console.Write("\n");
-}
-
-static void ordenaVetor(int[] vetor)
-{
-    for (int valor = vetor.Length - 1; valor >= 0; valor--)
-    {
-        for (int i = 0; i < valor; i++)
+        Console.WriteLine("Des:");
+        for (int i = 0; i < vetor.Length; i++)
         {
-            if (vetor[i] > vetor[i + 1])
+            Random numAleatorio = new Random();
+            vetor[i] = numAleatorio.Next(1, 10000);
+            Console.Write($"\t{vetor[i]}");
+        }
+        Array.Sort(vetor);
+        Array.Reverse(vetor);
+        Console.Write("\n");
+    }
+
+    static void ordenaVetor(int[] vetor,int s, int a, int c)
+    {
+        int maior = 0; int i = 0; 
+        for (int y = 0; y < vetor.Length; y++)
+        {
+            int pos = y;
+            Console.WriteLine($"a = {++a}");
+            for (i = y; i < vetor.Length; i++)
             {
-                int aux = vetor[i + 1];
-                vetor[i + 1] = vetor[i];
-                vetor[i] = aux;
+                Console.WriteLine($"c = {++c}");
+                if (vetor[i] < vetor[y])
+                {
+                    Console.WriteLine($"c = {++c}");
+                    if (vetor[i] < vetor[pos])
+                    {
+                        Console.WriteLine($"a = {++a}");
+                        pos = i;
+                    }              
+                }
             }
+            maior = vetor[y];
+            vetor[y] = vetor[pos];
+            vetor[pos] = maior;
+            Console.WriteLine($"a = {a += 3}");
         }
     }
-}
 
-static void Main(string[] args)
-{
-    int[] vetorD = new int[150];
-    preencheVetor(vetorD);
-    ordenaVetor(vetorD);
-
-    Console.WriteLine("Ord:");
-    for (int i = 0; i < vetorD.Length; i++)
+    static void Main(string[] args)
     {
-        Console.Write($"\t{vetorD[i]}");
+        int[] vetorD = new int[100];
+        preencheVetor(vetorD);
+        int s = 0, a = 0, c = 0;
+        ordenaVetor(vetorD, s, a, c);
+
+        Console.WriteLine("Ord:");
+        for (int i = 0; i < vetorD.Length; i++)
+        {
+            Console.Write($"\t{vetorD[i]}");
+        }
     }
 }
