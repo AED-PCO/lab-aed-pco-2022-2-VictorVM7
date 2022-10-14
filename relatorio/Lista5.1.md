@@ -5,8 +5,10 @@ public int alg1(int n){
     res = res*i;        → (1)
   }
 }
-
 (N-1) * 1 = N - 1
+
+![image](https://user-images.githubusercontent.com/92491730/195956952-19bfa16b-9121-4587-ba03-ecdc19b4b5b0.png)
+
 
 ## Exercício 2
 public int alg2(int[] arr, int x){
@@ -15,8 +17,11 @@ public int alg2(int[] arr, int x){
   }
 return -1;
 }
-
 N * 1 = N
+
+![image](https://user-images.githubusercontent.com/92491730/195956984-0c7d1cab-8d07-4380-8d4d-4e55b9d26823.png)
+
+
 
 ## Exercício 3
 double[] alg3 (double []arr1){
@@ -32,6 +37,9 @@ double[] alg3 (double []arr1){
 
 N * N * (1+1+1) = 3N^2
 
+![image](https://user-images.githubusercontent.com/92491730/195957007-87453e3b-3328-497c-94d7-8b6b9758bcd8.png)
+
+
 ## Exercício 4
 public double [] alg4 (int[] dados){
 	double[] vet = new double[dados.length];
@@ -44,10 +52,9 @@ public double [] alg4 (int[] dados){
   }
 	return vet;	
 }
-
-
 N*N * (1+1+1) = 3N^2
 
+![image](https://user-images.githubusercontent.com/92491730/195957022-4496dded-3b61-4640-bb47-afdf6c235c6e.png)
 
 
 
