@@ -13,7 +13,7 @@
 ### Gráfico
 ![image](https://user-images.githubusercontent.com/92491730/195458141-3486dcc8-67e5-4bfb-a21c-66b696c99fc6.png)
 
-# ✍🏼 Exercicio 2 - SelectionSort
+# ✍🏼 Exercicio 2 - InsertionSort
 
 ### Resposta
 - Criei um vetor desordenado

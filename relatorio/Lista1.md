@@ -19,8 +19,6 @@ inicialmente escolhido, aparece uma mensagem que o número possui a característ
 ### Print
 ![ex1](https://user-images.githubusercontent.com/92491730/187217546-60114602-1403-4f81-88eb-a7b0ef82c766.png)
 
-### Gráfico
-![image](https://user-images.githubusercontent.com/92491730/195954217-1aaacbaa-b17b-4112-aafa-ca8a65c09fd3.png)
 
 
 # ✍🏼  Exercicio 2
@@ -39,9 +37,6 @@ Depois o código verifica se a soma dos números divisíveis pelo número escolh
 ### Print
 ![ex2](https://user-images.githubusercontent.com/92491730/187217568-ee6b68b5-0b9b-4e78-9ebf-34c9e9e75892.png)
 
-### Gráfico
-![image](https://user-images.githubusercontent.com/92491730/195954241-6385e989-8bfd-4ec1-8223-5a94a9144454.png)
-
 
 
 # ✍🏼  Exercício 3
@@ -56,9 +51,6 @@ em comum, ele preenche o vetor C. Os números que são disitintos são passados 
 
 ### Print
 ![ex3](https://user-images.githubusercontent.com/92491730/187217587-2078b0ab-5d6e-4659-b27b-69330d9b08fd.png)
-
-### Gráficos
-![image](https://user-images.githubusercontent.com/92491730/195954253-c44bddb5-2783-43ab-87b6-2fc72bd09695.png)
 
 
 
@@ -75,8 +67,6 @@ Coloquei um If dentro da lida das colunas pois se o contador chegar a três, ele
 ### Print
 ![ex4](https://user-images.githubusercontent.com/92491730/187217601-40fe4388-5448-42f0-b0c6-ea8ae05f2efe.png)
 
-### Gráficos
-![image](https://user-images.githubusercontent.com/92491730/195954253-c44bddb5-2783-43ab-87b6-2fc72bd09695.png)
 
 
 # ✍🏼 Exercicio 5
@@ -88,8 +78,7 @@ O usuário digita um número e ele é passado para a função. A função For pe
 ### Print
 ![ex5](https://user-images.githubusercontent.com/92491730/187217620-f0ccbe89-73ee-42a4-8ed7-b6dc872bf770.png)
 
-### Gráficos
-![image](https://user-images.githubusercontent.com/92491730/195954253-c44bddb5-2783-43ab-87b6-2fc72bd09695.png)
+
 
 # ✍🏼 Exercício 6
 Faça um programa que chame uma função capaz de calcular x^y, sendo x e y inteiros. Utilize passagem de parâmetros por referência.
@@ -100,7 +89,5 @@ O usuário digita dois números que serão passados para a função que calcula 
 ### Print
 ![ex6](https://user-images.githubusercontent.com/92491730/187218782-711839e9-29db-4c4f-a3d5-15d383d112e5.png)
 
-### Gráficos
-![image](https://user-images.githubusercontent.com/92491730/195954253-c44bddb5-2783-43ab-87b6-2fc72bd09695.png)
 
 
