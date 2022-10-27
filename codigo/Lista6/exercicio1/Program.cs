@@ -1,7 +1,7 @@
 ﻿using System;
 
-class program
-{
+class program{
+    
     static void preencheVetor(int[] vetor)
     {
         Console.WriteLine("Des:");
