@@ -35,8 +35,10 @@ namespace exercicio1
                 }
                 else if (escolha.Equals("v"))
                 {
-                    if (pos != 0) imprimeVetor(vetor, pos);
-                    Console.WriteLine("Vetor vazio!");
+                    if (pos != 0)
+                        imprimeVetor(vetor, pos);
+                    else
+                        Console.WriteLine("Vetor vazio!");
                 }
                 else if (pos >= vetor.Length)
                 {
