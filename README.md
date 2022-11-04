@@ -16,17 +16,20 @@ Repositório para publicação das resoluções dos exercícios de Laboratório 
 - [x] [Lista 5](https://github.com/AED-PCO/lab-aed-pco-2022-2-VictorVM7/tree/main/codigo/Lista5.1.md)
 - [ ] [Lista 6](https://github.com/AED-PCO/lab-aed-pco-2022-2-VictorVM7/tree/main/codigo/Lista5)
 - [ ] [Lista 7](https://github.com/AED-PCO/lab-aed-pco-2022-2-VictorVM7/tree/main/codigo/Lista7)
-- [ ] [Lista 8](https://github.com/AED-PCO/lab-aed-pco-2022-2-VictorVM7/tree/main/codigo/Lista8)
+- [x] [Lista 8](https://github.com/AED-PCO/lab-aed-pco-2022-2-VictorVM7/tree/main/codigo/Lista8)
+- [ ] [Lista 9](https://github.com/AED-PCO/lab-aed-pco-2022-2-VictorVM7/tree/main/codigo/Lista9)
+
 
 ## 📜 Relatórios
 - [x] [Lista 1](https://github.com/AED-PCO/lab-aed-pco-2022-2-VictorVM7/blob/main/relatorio/Lista1.md)
 - [x] [Lista 2](https://github.com/AED-PCO/lab-aed-pco-2022-2-VictorVM7/blob/main/relatorio/Lista2.md)
-<<<<<<< HEAD
 - [ ] [Lista 3](https://github.com/AED-PCO/lab-aed-pco-2022-2-VictorVM7/blob/main/relatorio/Lista3.md)
-=======
 - [x] [Lista 3](https://github.com/AED-PCO/lab-aed-pco-2022-2-VictorVM7/blob/main/relatorio/Lista3.md)
 - [x] [Lista 5](https://github.com/AED-PCO/lab-aed-pco-2022-2-VictorVM7/blob/main/relatorio/Lista5.1.md)
-- [ ] [Lista 6](https://github.com/AED-PCO/lab-aed-pco-2022-2-VictorVM7/blob/main/relatorio/Lista5.md)
+- [ ] [Lista 6](https://github.com/AED-PCO/lab-aed-pco-2022-2-VictorVM7/blob/main/relatorio/Lista6.md)
+- [ ] [Lista 7](https://github.com/AED-PCO/lab-aed-pco-2022-2-VictorVM7/blob/main/relatorio/Lista7.md)
+- [ ] [Lista 8](https://github.com/AED-PCO/lab-aed-pco-2022-2-VictorVM7/blob/main/relatorio/Lista8.md)
+- [ ] [Lista 9](https://github.com/AED-PCO/lab-aed-pco-2022-2-VictorVM7/blob/main/relatorio/Lista9.md)
 
 ## 🧑🏽‍🏫 Professor responsável
 
