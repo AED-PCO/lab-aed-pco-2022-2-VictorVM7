@@ -22,11 +22,14 @@ namespace exercicio1
                 Console.WriteLine("Deseja inserir, retirar ou imprimir vetor\n[I] para inseri\n[R] para retirarz\n[V] para Imprimir vetor");
                 string escolha = Console.ReadLine().ToLower();
 
-                if (escolha.Equals("i") && pos < vetor.Length)
+                if (escolha.Equals("s"))
+                    break;
+
+                else if (escolha.Equals("i") && pos < vetor.Length)
                 {
                     vetor = insere(vet, pos);
                     pos = vetor.Length;
-                }  
+                }
                 else if (escolha.Equals("r") && pos != 0)
                 {
                     retira(vetor, pos);
