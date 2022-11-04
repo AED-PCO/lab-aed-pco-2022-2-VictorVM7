@@ -28,7 +28,7 @@ namespace exercicio1
                 else if (escolha.Equals("i") && pos < vetor.Length)
                 {
                     vetor = insere(vet, pos);
-                    pos = vetor.Length;
+                    pos++;
                 }
                 else if (escolha.Equals("r") && pos != 0)
                 {
@@ -60,11 +60,8 @@ namespace exercicio1
         }
         // Insere valores na fila
         static int[] insere(int[] vetor, int pos) {
-            if(pos != vetor.Length) {
-                Console.Write($"Preencha a fila na posição {pos + 1}: ");
-                vetor[pos] = int.Parse(Console.ReadLine());
-                insere(vetor, pos + 1);
-            }
+            Console.Write($"Preencha a fila na posição {pos + 1}: ");
+            vetor[pos] = int.Parse(Console.ReadLine());
             return vetor;
         }
         // Retira valores da fila
