@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ti\\source\\repos\\AED-PCO\\lab-aed-pco-2022-2-VictorVM7\\codigo\\Lista8\\exercicio2\\exercicio2.csproj": {}
+    "C:\\Users\\ti\\Source\\Repos\\AED-PCO\\lab-aed-pco-2022-2-VictorVM7\\codigo\\Lista8\\exercicio2\\exercicio2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ti\\source\\repos\\AED-PCO\\lab-aed-pco-2022-2-VictorVM7\\codigo\\Lista8\\exercicio2\\exercicio2.csproj": {
+    "C:\\Users\\ti\\Source\\Repos\\AED-PCO\\lab-aed-pco-2022-2-VictorVM7\\codigo\\Lista8\\exercicio2\\exercicio2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ti\\source\\repos\\AED-PCO\\lab-aed-pco-2022-2-VictorVM7\\codigo\\Lista8\\exercicio2\\exercicio2.csproj",
+        "projectUniqueName": "C:\\Users\\ti\\Source\\Repos\\AED-PCO\\lab-aed-pco-2022-2-VictorVM7\\codigo\\Lista8\\exercicio2\\exercicio2.csproj",
         "projectName": "exercicio2",
-        "projectPath": "C:\\Users\\ti\\source\\repos\\AED-PCO\\lab-aed-pco-2022-2-VictorVM7\\codigo\\Lista8\\exercicio2\\exercicio2.csproj",
+        "projectPath": "C:\\Users\\ti\\Source\\Repos\\AED-PCO\\lab-aed-pco-2022-2-VictorVM7\\codigo\\Lista8\\exercicio2\\exercicio2.csproj",
         "packagesPath": "C:\\Users\\ti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ti\\source\\repos\\AED-PCO\\lab-aed-pco-2022-2-VictorVM7\\codigo\\Lista8\\exercicio2\\obj\\",
+        "outputPath": "C:\\Users\\ti\\Source\\Repos\\AED-PCO\\lab-aed-pco-2022-2-VictorVM7\\codigo\\Lista8\\exercicio2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
