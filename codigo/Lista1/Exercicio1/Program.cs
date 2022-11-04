@@ -12,19 +12,25 @@ namespace Exercicio1
 
         static void Main(string[] args)
         {
-            for(int i = 1000; i <= 9999; i++){
+            int a = 0, s = 0, c = 0;
+            for(int i = 1000; i <= 10000; i++){
                 string numero = i.ToString(); 
                 char [] charNumero = new char [numero.Length];
+                a+=2;
 
                 for (int y = 0; y < charNumero.Length; y++){
                     charNumero[y] = numero[y];
+                    a++;
                 }
                 
                 int n1 = int.Parse(charNumero[0].ToString() + int.Parse(charNumero[1].ToString()));
                 int n2 = int.Parse(charNumero[2].ToString() + int.Parse(charNumero[3].ToString()));
-
+                a+=2;
+                s+=2;
+                c++;
                 funcaoVerifica(int.Parse(numero), n1, n2);
             }
+            Console.WriteLine($"S = {s}, C = {c}, A = {a}");
         }
     }
 }
