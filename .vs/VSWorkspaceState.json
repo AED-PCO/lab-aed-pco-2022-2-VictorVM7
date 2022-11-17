@@ -2,16 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\codigo",
-<<<<<<< HEAD
-    "\\codigo\\LIsta8",
-    "\\codigo\\LIsta8\\exercicio1"
+    "\\codigo\\Lista10",
+    "\\codigo\\Lista9\\exercicio1"
   ],
-  "SelectedNode": "\\codigo\\LIsta8\\exercicio1\\Program.cs",
-=======
-    "\\codigo\\LIsta8\\exercicio2",
-    "\\relatorio"
-  ],
-  "SelectedNode": "\\codigo\\Lista9",
->>>>>>> refs/remotes/origin/main
+  "SelectedNode": "\\codigo\\Lista10",
   "PreviewInSolutionExplorer": false
 }

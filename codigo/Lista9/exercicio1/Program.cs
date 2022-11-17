@@ -10,7 +10,7 @@ namespace exercicio1
             Console.Write("Fila: ");
             for (int i = 0; i < pos; i++)
             {
-                Console.Write(vet[i]);
+                Console.Write(vet[i] + " ");
             }
             Console.Write("\n");
         }
@@ -19,12 +19,12 @@ namespace exercicio1
         {
             int[] vet = new int[4];
             int[] vetor = new int[vet.Length];
-            int[] filaInversa = new int[vetor.Length];
-            int pos = 0;
+            int pos = 0, numInv = 0;
+            int [] vetorInv = new int[vetor.Length];
 
             while (pos >= 0)
             {
-                Console.Beep(800, 200);
+                /*Console.Beep(800, 200);*/
                 Console.WriteLine("Deseja inserir, retirar ou imprimir vetor\n[I] para inseri\n[R] para retirarz\n[V] para Imprimir vetor");
                 string escolha = Console.ReadLine().ToLower();
 
@@ -38,8 +38,8 @@ namespace exercicio1
                 }
                 else if (escolha.Equals("r") && pos != 0)
                 {
-                    retira(vetor, pos);
-                    insereInverso(filaInversa, filaInversa.Length - pos);
+                    numInv = retira(vetor, pos, numInv);
+                    insereVerso(vetorInv, pos, numInv);
                     Console.WriteLine("Número na primeira posição retirado!");
                     pos--;
                 }
@@ -47,8 +47,11 @@ namespace exercicio1
                 {
                     if (pos != 0)
                     {
-                        imprimeVetor(vetor, pos);
-                        imprimeVetor(filaInversa, filaInversa.Length);
+                        imprimeVetor(vetor, pos);                        
+                    }
+                    if (vetorInv[vetor.Length - 1] != 0)
+                    {
+                        imprimeVetor(vetorInv, vetor.Length);
                     }
                     else
                         Console.WriteLine("Vetor vazio!");
@@ -68,6 +71,7 @@ namespace exercicio1
                 }
             }
         }
+
         // Insere valores na fila
         static int[] insere(int[] vetor, int pos)
         {
@@ -75,22 +79,23 @@ namespace exercicio1
             vetor[pos] = int.Parse(Console.ReadLine());
             return vetor;
         }
-        // Insere inverso na fila inversa *******************************
-        static int[] insereInverso(int[] vetor, int pos, int posInv)
+
+        // Insere ao contrário
+        static int[] insereVerso(int [] vetorInv, int pos, int numInv)
         {
-            vetor[vetor.Length - 1] = vetor[pos];
-            return vetor;
+            vetorInv[pos -1] = numInv;
+            return vetorInv;
         }
+
         // Retira valores da fila
-        static int[] retira(int[] vet, int pos)
+        static int retira(int[] vet, int pos, int num)
         {
-            int aux = 0;
-            aux = vet[0];
+            num = vet[0];
             for (int i = 0; i < pos - 1; i++)
             {
                 vet[i] = vet[i + 1];
             }
-            return vet;
+            return num;
         }
     }
 }
