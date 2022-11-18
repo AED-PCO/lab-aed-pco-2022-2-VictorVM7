@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "v6JUjYnRut71Cn4mbQ1+kza5sWVo1fbe6RUKTK4h+COFmN5ZdYtHMUbn3Zpihs+SLbx8NBTOIR922wOmKKVT+Q==",
+  "dgSpecHash": "ffiV8nFR47qUmGniQTRHU8C/Z1My8IDxQTZyYyY9mdxS5YrB2hsu8lfG+uyU0vnLol9jUzgPlOv5FyIIqI59rw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\victo\\source\\repos\\AED-PCO\\lab-aed-pco-2022-2-VictorVM7\\codigo\\Lista8\\exercicio1\\exercicio1.csproj",
+  "projectFilePath": "C:\\Users\\victo\\Source\\Repos\\AED-PCO\\lab-aed-pco-2022-2-VictorVM7\\codigo\\Lista8\\exercicio1\\exercicio1.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema ao ler o arquivo de cache C:\\Users\\victo\\source\\repos\\AED-PCO\\lab-aed-pco-2022-2-VictorVM7\\codigo\\Lista8\\exercicio1\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
