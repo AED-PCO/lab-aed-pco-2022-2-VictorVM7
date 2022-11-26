@@ -1,91 +1,75 @@
 ﻿using System;
 using System.Globalization;
+using Estrutura;
+using System.Timers;
+using metodos;
 
 internal class Program
 {
-    //Imprime o vetor
-    static void imprimeVetor(int[] vet, int pos)
-    {
-        Console.Write("Pilha: ");
-        for (int i = 0; i < pos; i++)
-        {
-            Console.Write(vet[i] + " ");
-        }
-        Console.Write("\n");
-    }
-
     // Main
     static void Main(string[] args)
     {
-        int[] vet = new int[4];
-        int[] vetor = new int[4];
-        int pos = 0;
+        elemento primeiro = new elemento();
+        elemento ultimo = primeiro;
+        Boolean on = true;
 
-        while (pos >= 0)
+        int registro;
+        int escolha;
+        string nome;
+
+        do
         {
-            Console.Beep();
-            Console.WriteLine("Deseja inserir, retirar ou imprimir pilha\n[I] para inseri\n[R] para retirar\n[V] para Imprimir vetor");
-            string escolha = Console.ReadLine().ToLower();
+            // Pergunta o usuário o que ele quer fazer
+            Console.WriteLine("Inserir [1] | Retirar [2] | Vizualizar [3] | Quit [4]");
+            escolha = int.Parse(Console.ReadLine());
 
-            if (escolha.Equals("s"))
-                break;
+            // Inserir
+            if (escolha == 1)
+            {
+                // Pergunta o nome e o registro
+                Console.Write("Digite o NOME do aluno: ");
+                nome = Console.ReadLine();
+                Console.Write($"Digite o REGISTRO de {nome}: ");
+                registro = int.Parse(Console.ReadLine());
 
-            else if (escolha.Equals("i") && pos < vetor.Length)
-            {
-                vetor = insere(vet, pos);
-                pos++;
-            }
-            else if (escolha.Equals("r") && pos != 0)
-            {
-                retira(vetor, pos);
-                pos--;
-            }
-            else if (escolha.Equals("v"))
-            {
-                if (pos != 0)
-                    imprimeVetor(vetor, pos);
-                else
-                    Console.WriteLine("Pilha vazia!");
-            }
-            else if (pos >= vetor.Length)
-            {
-                Console.WriteLine("Sua pilha está cheia! Você pode retirar ou imprimir!");
-            }
-            else if (pos == 0)
-            {
-                Console.WriteLine("Sua pilha está vazia! Você pode inserir ou imprimir!");
-            }
-            else
-            {
-                Console.WriteLine("Escolha não aplicada.");
-                break;
-            }
-        }
-    }
+                // While para o usuário passar o registro correto do aluno
+                while (registro > 1000 || registro <= 0)
+                {
+                    Console.Clear();
+                    Console.WriteLine("Registro informado com formato inesperado! O registro deve estar entre 1 e 1000\n");
+                    Console.Write($"Digite o registro de {nome}: ");
+                    registro = int.Parse(Console.ReadLine());
+                }
 
-    // Insere valores na pilha
-    static int[] insere(int[] vetor, int pos)
-    {
-        Console.WriteLine($"Preencha a pilha na posição {pos + 1}: ");
-        vetor[pos] = int.Parse(Console.ReadLine());
-        return vetor;
-    }
+                // Cria um novo aluno com o nome e o registro
+                elemento novoAluno = new elemento();
+                novoAluno.aluno.nome = nome;
+                novoAluno.aluno.registro = registro;
 
-    // Retira valores da pilha
-    static int[] retira(int[] vet, int pos)
-    {
-        string escolha;
-        for (int i = pos; i > 0; i--)
-        {
-            Console.WriteLine($"Retirar número na posição {pos}? [S] Sim e [N] Não");
-            escolha = Console.ReadLine().ToLower();
-            if (escolha.Equals('s'))
-            {
-                vet[i - 1] = vet[i];
+                // Funcao Registra
+                metodos.pilha.insereAluno(ref ultimo, novoAluno);
+                ultimo = novoAluno;
+
+                Console.WriteLine("Aluno inserido!");
+                Console.Clear();
             }
-            else
-                break;
-        }
-        return vet;
+
+            else if (escolha == 2)
+            {
+                elemento alunoRemovido = metodos.pilha.removeAluno(ref ultimo, ref primeiro);
+                Console.WriteLine($"Aluno removido:\n{alunoRemovido.aluno.nome}");
+            }
+
+            else if (escolha == 3)
+            {
+                Console.Clear();
+                metodos.pilha.mostrar(ref primeiro, ref ultimo);
+                Console.ReadLine();
+                Console.Clear();
+            }
+
+            else { }
+
+        } while (on == true);
     }
 }
