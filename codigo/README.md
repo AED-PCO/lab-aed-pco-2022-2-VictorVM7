@@ -1,5 +1,2 @@
-# Código da Prática 
-
-Mantenha neste diretório todo o código fonte do projeto. 
-
-Se necessário, descreva neste arquivo aspectos relevantes da estrutura de diretórios criada para organização do código.
+# 🏆 Algoritmos e Estruturas de Dados (AED)
+Repositório de códigos das disciplinas de programação da PUC Minas!
