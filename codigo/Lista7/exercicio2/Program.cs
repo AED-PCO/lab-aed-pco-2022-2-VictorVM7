@@ -9,6 +9,5 @@ class programa
         string userTxt = Console.ReadLine();
         string txtDoc = docTxt.ReadLine();
 
-
     }
 }
